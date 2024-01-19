@@ -126,6 +126,6 @@ cityInputElement.addEventListener("keydown", function(event) {
     }
 });
 async function demo() {
-    await fetchData(`https://api.openweathermap.org/data/2.5/weather?q=kurnool&appid=597c4138a0a1000b04a0027dfbb80f6d&units=metric`);
+    await fetchData(`https://api.openweathermap.org/data/2.5/weather?q=chennai&appid=597c4138a0a1000b04a0027dfbb80f6d&units=metric`);
 }
 demo();
